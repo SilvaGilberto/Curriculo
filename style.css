@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo dos Textos*/
+header h1 {
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 22px;
+}
+
+.section-body p {
+    font-size: 18px;
+}
+
+.section-body li {
+    font-size: 18px;
+}
+
+/*Header*/
+header {
+    margin: 30px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+header .info {
+    margin: 30px 0px;
+    text-align: center;
+    line-height: 22px;
+}
+
+/*main*/
+main {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-header {
+    padding: 5px;
+    margin: 25px 0px;
+    border: 1px solid black;
+}
+
+.section-body {
+    padding: 0px 20px;
+}
+
+/*div para cara topico do section body*/
+.padrao {
+    margin: 30px 0px;
+}
+
+/*Configurações das listas*/
+.lista {
+    list-style: none;
+}
+    
+.sublista {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    
+    main {
+        margin: 20px;
+    }
+
+}
